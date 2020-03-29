@@ -2,7 +2,7 @@
 ![Be The Hero](https://github.com/MarceloGuimaraes/OmniStack11/blob/master/frontend/src/assets/logo.svg)
 
 # Semana OmniStack 11.0 - [Rocketseat](https://rocketseat.com.br/) - 23/03/2020 à 27/03/2020
-Resultado de uma semana onde foi desenvolvida uma aplicação chamada BE THE HERO. Onde ONGs Realizam cadastros de casos atraves da WEB, solicitando ajuda. E por meio do aplicativo MOBO, é possivel contribuir nos casos ( ser o herói ). 
+Resultado de uma semana onde foi desenvolvida uma aplicação chamada BE THE HERO. Onde ONGs Realizam cadastros de casos atraves da WEB ou MOBILE, solicitando ajuda. E por meio do aplicativo MOBO, é possivel contribuir nos casos ( ser o herói ). 
 ------------
 
 ## Stack Utilizada
