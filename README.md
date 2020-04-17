@@ -147,7 +147,7 @@ npm start
 **Iniciando mobile** 
 ```
 cd mobile
-expo start
+npm start
 ```
    **ou**
 ```
