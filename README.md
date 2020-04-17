@@ -29,9 +29,7 @@ Node.js® é um runtime JavaScript desenvolvido com o Chrome's V8 JavaScript eng
 Este é o nosso banco de dados. Do tipo SQL, onde a estrutura é bem definida. 
 
 
-
 ------------
-
 
 
 ## O Projeto:
@@ -106,14 +104,16 @@ Nesse dia adicionamos validação e testes na nossa aplicação:
 ### Instalação
 
 Clone o repositório, utilizando **git clone** ou faça o **download** do repositório.
-
-**aviso que o arquivo de gravação de tela do emulador que esta na pasta vídeo possui 25mb**
-
+```sh
+git clone https://github.com/MarceloGuimaraes/OmniStack11.git
+cd OmniStack11
+npm install
+```
 ----
 
 Após clonar ou baixar o repositório instale as dependências necessárias:
 
-Utilize o **npm** para instalar as dependências nas pastas *backend*, *react-frontend*, *vue-frontend*, *mobile*.
+Utilize o **npm** para instalar as dependências nas pastas *backend*, *frontend* e *mobile*.
 
 ```
 npm install
@@ -124,20 +124,35 @@ Após instalar as dependências você precisa rodar o comando do knex para criar
 npx knex migrate:latest
 ```
 
-Após a geração do banco de dados e das migrações você poderá rodar o backend, frontend e mobile utilizando
+Após a geração do banco de dados é hora de executar...
 
-**Para o backend e react-frontend:**
+### Execução
+
+**Clonando o projeto** 
+```sh
+git clone https://github.com/MarceloGuimaraes/OmniStack11.git
+cd semana-omnistack-11
+npm install
 ```
+**Iniciando Backend** 
+```sh
+cd backend
 npm start
 ```
-
-**Para o vue-frontend:**
+**Iniciando Frontend** 
 ```
-npm run serve
+cd frontend
+npm start
 ```
-
-**Para o mobile**
+**Iniciando mobile** 
 ```
+cd mobile
 expo start
 ```
+   **ou**
+```
+cd mobile
+expo start
+```
+
 Para visualização da aplicação mobile utilize o celular com o aplicativo *Expo* ou emulador Android/iOS.
